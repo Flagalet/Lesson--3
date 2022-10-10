@@ -15,4 +15,6 @@ int y2 = int.Parse(Console.ReadLine()!);
 int z2 = int.Parse(Console.ReadLine()!);
 
 double result = Math.Sqrt(Kor(x1, x2)+Kor(y1, y2)+Kor(z1, z2));
-Console.WriteLine($"{result:f2}");
+
+Console.Clear();
+Console.WriteLine($" Расстояние -> {result:f2}");
