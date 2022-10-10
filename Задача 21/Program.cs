@@ -5,11 +5,11 @@ int Kor( int kor, int kor2)
     return res;
 }
 
-Console.WriteLine("Введите координаты точек A");
+Console.WriteLine("Введите координаты точки A");
 int x1 = int.Parse(Console.ReadLine()!);
 int y1 = int.Parse(Console.ReadLine()!);
 int z1 = int.Parse(Console.ReadLine()!);
-Console.WriteLine("Введите координаты точек B");
+Console.WriteLine("Введите координаты точки B");
 int x2 = int.Parse(Console.ReadLine()!);
 int y2 = int.Parse(Console.ReadLine()!);
 int z2 = int.Parse(Console.ReadLine()!);
